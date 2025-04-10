@@ -1,0 +1,87 @@
+:root {
+    --background: #332E29;
+    --complementar1: #E58024;
+    --complementar2: #25BEE6;
+    --fonte: white;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--fonte);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+header h1, header p {  
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 40px;
+}
+
+header hr, footer hr {
+    width: 35%;
+    border: 1px solid var(--complementar1);
+    margin: 10px auto;
+}
+
+footer hr {
+    border: 1px solid var(--complementar2);
+    margin-top: 60px;
+}
+
+.caixa {
+    width: 40%;
+    margin: 50px auto;
+    background-color: var(--fonte);
+    color: black;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px var(--complementar1);
+}
+
+.sombra-reversa {
+    
+    box-shadow: -10px 10px var(--complementar2);
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin-top: 30px;
+    width: 50%;
+    height: 30px;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+button {
+    height: 30px;
+    background-color: var(--complementar1);
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    font-size: 15px;
+}
+
+a {
+    color: var(--complementar2);
+}
